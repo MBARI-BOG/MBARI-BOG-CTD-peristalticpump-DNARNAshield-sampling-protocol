@@ -1,49 +1,51 @@
 ---
 # MIOP terms
 methodology_category: sample collection
-project: # can be general
+project: Monterey Bay Time Series (MBTS)
 purpose: biodiversity assessment objective [OBI:0001969]
 analyses: filtration [OBI:0302885], environmental material collection process [OBI:0600012]
-geographic_location: # Atlantic Ocean [GAZ:00000344], Gulf of Mexico [GAZ:00002853]
-broad_scale_environmental_context: # marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
-local_environmental_context: # marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
-environmental_medium: # sea water [ENVO:00002149]
+geographic_location: Monterey Bay [GAZ:00002509]
+broad_scale_environmental_context: marine biome [ENVO:00000447]
+local_environmental_context: upwelling [ENVO:01000005]
+environmental_medium: sea water [ENVO:00002149]
 target: deoxyribonucleic acid (DNA) [NCIT:C449]
-creator: # names separated by commas
-materials_required: filtration [OBI:0302885]
-skills_required: sterile technique, pipetting skills, standard molecular technique, research vessel experience
-time_required: # minutes (integer)
+creator: Jacoby Baker, Kobun Truelove, Kathleen Pitz
+materials_required: peristaltic pump
+skills_required: sterile technique
+time_required: 60
 personnel_required: 1
 language: en
-issued: # YYYY-MM-DD
+issued: 2025-11-25
 audience: scientists
-publisher: # institution
+publisher: Monterey Bay Aquarium Research Institute
 hasVersion: 1
 license: CC0 1.0 Universal
 maturity level: mature
 
 # FAIRe terms
-samp_category: # sample
-env_broad_scale: # marine biome [ENVO:00000447]
-env_local_scale: # marine photic zone [ENVO:00000209]
-env_medium: # sea water [ENVO:00002149]
-habitat_natural_artificial_0_1: # 0
-samp_collect_method: # CTD rosette
-samp_collect_device: # Niskin bottle
-samp_size: # 1000
-samp_size_unit: # mL
-samp_store_temp: # -80
-samp_store_sol: # DNA/RNA Shield
-samp_mat_process: # Water samples were pre-filtered using a sieve (200 micrometers), then filtered using a peristaltic pump (pore size 0.45 micrometers).
-filter_passive_active_0_1: # 1
-prefilter_material: # nylon
-size_frac_low: # 20.0
-size_frac: # 0.22
-filter_diameter: # 47.0
-filter_material: # cellulose ester
+## sample collection
+samp_category: # sample-specific
+env_broad_scale: marine biome [ENVO:00000447]
+env_local_scale: # sample-specific
+env_medium: sea water [ENVO:00002149]
+habitat_natural_artificial_0_1: 0
+samp_collect_method: CTD rosette
+samp_collect_device: Niskin bottle
+samp_size: 1000
+samp_size_unit: mL
+samp_store_temp: -80
+samp_store_sol: DNA/RNA Shield
+## sample preparation
+samp_mat_process: Water samples were filtered using a peristaltic pump (pore size 0.22 micrometers).
+filter_passive_active_0_1: 1
+prefilter_material: # not applicable
+size_frac_low: # not applicable
+size_frac: 0.22
+filter_diameter: 25
+filter_material: polyvinylidene difluoride (PVDF)
 ---
 
-# Protocol for environmental DNA sampling using CTD-collected seawater and a peristaltic pump with preservation in DNA/RNA Shield solution
+# Protocol for environmental DNA sampling using a peristaltic pump with preservation in DNA/RNA Shield solution
 
 ## PROTOCOL INFORMATION
 
@@ -114,10 +116,15 @@ filter_material: # cellulose ester
 > Insert a short description of the background for the method/protocol (e.g. why and for which purpose do you perform water sampling).
 Please provide a brief summary of your method including, as appropriate, a brief description of what techniques your best practice is about, which ocean environments or regions it targets, the primary sensors covered, what type of data/measurements/observing platform it covers, limits to its applicability.
 
+This protocol is for water samples collected from Niskin bottles on a CTD rosette (although it can be applied to other water sample collection methods). The goal is to concentrate environmental DNA and RNA from seawater onto a flat filter membrane for preservation and later analysis through metabaroding and qPCR.
+
 ### Method Description and Rationale
 
 > Insert a short description of the functioning principal of the methodology used in the protocol (i.e. how does the method work?). Please note that this is different from the step-by-step description of the protocol procedure.
 Insert a short statement explaining why the specific methodology used in the protocol has been selected (e.g. it is highly reproducible, highly accurate, procedures are easy to execute etc….).
+
+This protocol is designed for relatively high-throughput sampling in primarily nearshore surface waters where environmental DNA concentrations are higher but also due to phytoplankton blooms or other biomass aggregations, passing more than 1L through a 0.22 uM membrane can be sometimes difficult. When sampling in lower eDNA environments (offshore or in deeper environments) consider increasing the volume of seawater filtered. A larger poresize filter can also be used to sample higher volumes of seawater but may be detrimental to prokaryote community collection.
+
 
 ### Spatial Coverage and Environment(s) of Relevance
 
