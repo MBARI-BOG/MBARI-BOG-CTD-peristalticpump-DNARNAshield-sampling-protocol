@@ -45,7 +45,7 @@ filter_diameter: 25
 filter_material: polyvinylidene difluoride (PVDF)
 ---
 
-# Protocol for environmental DNA sampling using a peristaltic pump with preservation in DNA/RNA Shield solution
+# eDNA sampling using a peristaltic pump with preservation in DNA/RNA Shield solution
 
 ## PROTOCOL INFORMATION
 
