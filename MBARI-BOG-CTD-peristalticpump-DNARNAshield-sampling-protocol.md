@@ -81,8 +81,8 @@ filter_material: polyvinylidene difluoride (PVDF)
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
-| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
+|    |   |   |    |        |
+|    |   |   |    |        |
 
 ### Protocol Revision Record
 
@@ -98,30 +98,25 @@ filter_material: polyvinylidene difluoride (PVDF)
 
 | ACRONYM / ABBREVIATION | DEFINITION |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+|    |    |
+|    |    |
 
 ### Glossary
 
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+|    |    |
+|    |    |
 
 ## BACKGROUND
 
 
 ### Summary
 
-> Insert a short description of the background for the method/protocol (e.g. why and for which purpose do you perform water sampling).
-Please provide a brief summary of your method including, as appropriate, a brief description of what techniques your best practice is about, which ocean environments or regions it targets, the primary sensors covered, what type of data/measurements/observing platform it covers, limits to its applicability.
 
 This protocol is for water samples collected from Niskin bottles on a CTD rosette (although it can be applied to other water sample collection methods). The goal is to concentrate environmental DNA and RNA from seawater onto a flat filter membrane for preservation and later analysis through metabaroding and qPCR.
 
 ### Method Description and Rationale
-
-> Insert a short description of the functioning principal of the methodology used in the protocol (i.e. how does the method work?). Please note that this is different from the step-by-step description of the protocol procedure.
-Insert a short statement explaining why the specific methodology used in the protocol has been selected (e.g. it is highly reproducible, highly accurate, procedures are easy to execute etc….).
 
 This protocol is designed for relatively high-throughput sampling in primarily nearshore surface waters where environmental DNA concentrations are higher but also due to phytoplankton blooms or other biomass aggregations, passing more than 1L through a 0.22 uM membrane can be sometimes difficult. When sampling in lower eDNA environments (offshore or in deeper environments) consider increasing the volume of seawater filtered. A larger poresize filter can also be used to sample higher volumes of seawater but may be detrimental to prokaryote community collection.
 
@@ -132,7 +127,7 @@ This protocol has been used to collect environmental DNA from sea water samples 
 
 - ocean [ENVO:00000015]
 
-## PERSONNEL REQUIRED
+### PERSONNEL REQUIRED
 
 1 technician
 
@@ -159,19 +154,31 @@ Depending on how quickly the water passes through the filter, the water collecti
 | DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | **Durable equipment** |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| forceps |   |   |   |   |
+| Swinnex filter cartridges |   |   |   |   |
+|peristaltic pump and pumpheads|||||
+|2L wide-mouth square plastic bottles|||||
+|vinyl outflow tubing|||||
+|1L collection bottles|||||
+|milk crate (optional)|||||
 | **Consumable equipment** |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| 50mL falcon tubes |   |   |   |   |
+|falcon tube stand|||||
+| serological pipettes |   |   |   |   |
+|25 mm Millipore filters|   |   |   |   |
+|DNA/RNA Shield collection tubes|||||
+|disposable absorbent under pad|||||
+|MasterFlex tubing|||||
+|Whirlpak disposable bags|||||
+|sterile syringe|||||
 | **Chemicals** |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
-| Content Cell | Content Cell | Content Cell | Content Cell | Content Cell |
+| RNase Away |   |   |   |   |
+| 70% ethanol |   |   |   |   |
+|10% bleach|||||
+|MilliQ water|||||
 
 ## STANDARD OPERATING PROCEDURE
 
->In the following SOP, please use the exact names of equipment as noted in the table above.
-Provide a step-by-step description of the protocol. The identification of difficult steps in the protocol and the provision of recommendations for the execution of those steps are encouraged.
 
 ### Prior to collection: 
 - This protocol is for water samples collected from Niskin bottles on a CTD rosette (although it can be applied to other water sample collection methods) and assumes that sterile techniques are practiced for all disposable items
@@ -226,11 +233,9 @@ Provide a step-by-step description of the protocol. The identification of diffic
 - Once 0.3 liters has passed, stop the pump
 - Place the preloaded Swinnex filter cartridges on the tubing outflow end; attach 15cm vinyl outflow tubing to the opposite end of the Swinnex cartridges to direct water flow into 1L collection bottles
 - Pump 1L of sample water through the Swinnex cartridge; stop the pump when finished
-- Remove the cartridge from the tubing and use a sterile syringe to blow air through the cartridge to remove remaining water droplets on the Millipore filter.
+- Remove the cartridge from the tubing. [optional] Use a sterile syringe to blow air through the cartridge to remove remaining water droplets on the Millipore filter.
 - For vacuum filtration measure the appropriate volume and pour through disposable filter holders.
-- Using sterile forceps, remove the filter from the cartridge and carefully insert into a pre-labeled 2mL cryovial
-- Immediately place loaded cryovials into a liquid nitrogen dewar (preferred) or a -80°C freezer.
-- If a liquid nitrogen dewar or -80°C freezer is not available, add DNAGuard to cryovial so the filter is covered. Store cryovial in the refrigerator (4°C).
+- Using sterile forceps, remove the filter from the cartridge and carefully insert into a pre-labeled DNA/RNA Shield collection tube
 
 ### Storage
 
