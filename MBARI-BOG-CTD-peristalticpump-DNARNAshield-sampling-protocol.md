@@ -81,7 +81,7 @@ filter_material: polyvinylidene difluoride (PVDF)
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-|    |   |   |    |        |
+|  Environmental DNA (eDNA) extraction using Qiagen DNeasy 96 Blood and Tissue Kit V.3  | https://github.com/MBARI-BOG/MBARI-BOG-QiagenDNeasy96-BT-DNA-Extraction-Protocol  | 3.0  |    |   Internal     |
 |    |   |   |    |        |
 
 ### Protocol Revision Record
